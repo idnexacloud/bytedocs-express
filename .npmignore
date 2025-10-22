@@ -1,0 +1,60 @@
+# Source files (publish only dist/)
+src/
+*.ts
+!*.d.ts
+
+# Development files
+examples/
+tests/
+test/
+__tests__/
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Build configuration
+tsconfig.json
+.eslintrc*
+.prettierrc*
+jest.config.*
+
+# Version control
+.git/
+.gitignore
+.github/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# Documentation (keep only essential)
+docs/
+CONTRIBUTING.md
+
+# Misc
+coverage/
+.nyc_output/

@@ -1,0 +1,68 @@
+{
+  "name": "bytedocs-express",
+  "version": "1.0.0",
+  "description": "Automatic API documentation generator for Express.js - inspired by Scramble for Laravel",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && npm run copy-templates",
+    "copy-templates": "cp -r src/ui/templates dist/ui/",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "example": "ts-node examples/basic/index.ts"
+  },
+  "keywords": [
+    "express",
+    "documentation",
+    "api",
+    "swagger",
+    "openapi",
+    "bytedocs",
+    "auto-documentation",
+    "api-doc",
+    "rest-api",
+    "nodejs",
+    "typescript",
+    "openai",
+    "ai-assistant"
+  ],
+  "author": "ByteDocs Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aibnuhibban/bytedocs-express"
+  },
+  "homepage": "https://github.com/aibnuhibban/bytedocs-express#readme",
+  "bugs": {
+    "url": "https://github.com/aibnuhibban/bytedocs-express/issues"
+  },
+  "peerDependencies": {
+    "express": "^4.18.0 || ^5.0.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.23.6",
+    "@babel/traverse": "^7.23.6",
+    "@babel/types": "^7.23.6",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.0",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
