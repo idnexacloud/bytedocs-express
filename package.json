@@ -1,7 +1,7 @@
 {
   "name": "bytedocs-express",
   "version": "1.0.0",
-  "description": "Automatic API documentation generator for Express.js - inspired by Scramble for Laravel",
+  "description" : "Alternative to Swagger with better design, auto-detection, and AI integration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -31,11 +31,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aibnuhibban/bytedocs-express"
+    "url": "https://github.com/idnexacloud/bytedocs-express"
   },
-  "homepage": "https://github.com/aibnuhibban/bytedocs-express#readme",
+  "homepage": "https://github.com/idnexacloud/bytedocs-express#readme",
   "bugs": {
-    "url": "https://github.com/aibnuhibban/bytedocs-express/issues"
+    "url": "https://github.com/idnexacloud/bytedocs-express/issues"
   },
   "peerDependencies": {
     "express": "^4.18.0 || ^5.0.0"
