@@ -96,8 +96,8 @@ ${request.context || ''}`;
       headers: {
         'Authorization': `Bearer ${this.config.apiKey}`,
         'Content-Type': 'application/json',
-        'HTTP-Referer': 'https://github.com/anthropics/bytedocs-express',
-        'X-Title': 'ByteDocs Express',
+        'HTTP-Referer': 'https://github.com/idnexacloud/bytedocs-node',
+        'X-Title': '@bytedocs/express',
       },
       body: JSON.stringify({
         model,

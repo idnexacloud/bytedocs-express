@@ -3,7 +3,7 @@
  */
 
 import { Request, Response } from 'express';
-import { attachExample, attachExamples } from 'bytedocs-express';
+import { attachExample, attachExamples } from '@bytedocs/express';
 import { User, CreateUserDTO, UpdateUserDTO } from '../types';
 
 // Mock database

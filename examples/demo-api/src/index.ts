@@ -11,7 +11,7 @@
 
 import express, { Request, Response, NextFunction } from 'express';
 import { config } from 'dotenv';
-import { setupByteDocs } from 'bytedocs-express';
+import { setupByteDocs } from '@bytedocs/express';
 import apiRoutes from './routes';
 
 // Load environment variables

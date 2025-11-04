@@ -10,7 +10,7 @@ A complete demo Express API showcasing ByteDocs Express automatic documentation 
 npm install
 ```
 
-This will install Express and link to the local `bytedocs-express` package using `file:../../`.
+This will install Express and link to the local `@bytedocs/express` package using `file:../../`.
 
 ### 2. Run the Server
 

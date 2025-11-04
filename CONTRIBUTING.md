@@ -5,7 +5,7 @@ Thank you for your interest in contributing to ByteDocs Express! We welcome cont
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/bytedocs-express.git`
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/bytedocs-node.git`
 3. Install dependencies: `npm install`
 4. Create a new branch: `git checkout -b feature/your-feature-name`
 
@@ -14,7 +14,7 @@ Thank you for your interest in contributing to ByteDocs Express! We welcome cont
 ### Project Structure
 
 ```
-bytedocs-express/
+@bytedocs/express/
 ├── src/
 │   ├── core/          # Core documentation engine
 │   ├── parser/        # Route analyzer and detector

@@ -25,14 +25,14 @@
 ### 1. Install ByteDocs
 
 ```bash
-npm install bytedocs-express
+npm install @bytedocs/express
 ```
 
 ### 2. Add One Line to Your Code
 
 ```javascript
 import express from 'express';
-import { setupByteDocs } from 'bytedocs-express';
+import { setupByteDocs } from '@bytedocs/express';
 
 const app = express();
 app.use(express.json());
@@ -246,7 +246,7 @@ BYTEDOCS_UI_SHOW_SCHEMAS=true
 
 Then load it in your code:
 ```javascript
-import { loadConfigFromEnv, validateConfig } from 'bytedocs-express';
+import { loadConfigFromEnv, validateConfig } from '@bytedocs/express';
 
 const config = loadConfigFromEnv();
 
@@ -267,7 +267,7 @@ ByteDocs currently supports Express with more frameworks coming soon:
 ### Express
 ```javascript
 import express from 'express';
-import { setupByteDocs } from 'bytedocs-express';
+import { setupByteDocs } from '@bytedocs/express';
 
 const app = express();
 setupByteDocs(app, config);
@@ -320,7 +320,7 @@ app.post('/api/users', (req, res) => {
 ### Manual Route Registration
 
 ```javascript
-import { ByteDocs } from 'bytedocs-express';
+import { ByteDocs } from '@bytedocs/express';
 
 const docs = new ByteDocs({
   title: 'My API',
@@ -411,7 +411,7 @@ npm run example    # Run example server
 ## Project Structure
 
 ```
-bytedocs-express/
+@bytedocs/express/
   src/
     core/              # Core functionality
     parser/            # Route parser
