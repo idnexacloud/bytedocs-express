@@ -1,7 +1,7 @@
 {
   "name": "@bytedocs/express",
-  "version": "1.0.0",
-  "description" : "Alternative to Swagger with better design, auto-detection, and AI integration",
+  "version": "1.0.1",
+  "description": "Alternative to Swagger with better design, auto-detection, and AI integration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
